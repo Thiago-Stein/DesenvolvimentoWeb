@@ -1,6 +1,74 @@
+/* Titulos e subtitulos */
+#tituloDeD{
+    color: red;
+    text-align: center;
+    font-family: "MedievalSharp", cursive;
+}
+
+.subtitulosDed{
+    color:brown;
+    text-align: center;
+    font-family: "MedievalSharp", cursive;
+}
+
+#classesFavoritas{
+    color: white;
+    font-family: "MedievalSharp", cursive;
+}
+
+/* Imagem centralizada */
 #dedimg {
     width: 500px;
     height: 300px;
     display: block;
     margin: 0 auto;
+}
+
+/* Paragrafos e listas */
+p , li , ol , ul {
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px;
+    font-family: "MedievalSharp", cursive;
+}
+
+/* Links */
+a{
+    color: green;
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px;
+    font-family: "MedievalSharp", cursive;
+}
+
+#githubLink{
+    color: purple;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    font-family: "MedievalSharp", cursive;
+}
+
+
+/* Body Background */
+body{
+    background-color: #000000;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Especificos */
+#importante{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    font-family: "MedievalSharp", cursive;
+}
+
+/* Import da fonte estilo medieval */
+.medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
