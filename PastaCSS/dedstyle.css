@@ -1,19 +1,20 @@
 /* Titulos e subtitulos */
 #tituloDeD{
-    color: red;
+    color: #8B0000;
     text-align: center;
     font-family: "MedievalSharp", cursive;
 }
 
 .subtitulosDed{
-    color:brown;
+    color:#8B0000;
     text-align: center;
     font-family: "MedievalSharp", cursive;
 }
 
 #classesFavoritas{
-    color: white;
+    color: #8B0000;
     font-family: "MedievalSharp", cursive;
+    text-align: center;
 }
 
 /* Imagem centralizada */
@@ -25,12 +26,21 @@
 }
 
 /* Paragrafos e listas */
-p , li , ol , ul {
-    color: white;
+p{
+    color: #4e3934;
     font-size: 18px;
     text-align: justify;
     margin: 20px;
     font-family: "MedievalSharp", cursive;
+}
+
+.classe{
+    color: #4e3934;
+    font-size: 18px;
+    margin: 20px;
+    font-family: "MedievalSharp", cursive;
+    text-align: center;
+    list-style-position: inside; /* Coloca as bolinhas junto com o texto */
 }
 
 /* Links */
@@ -43,19 +53,31 @@ a{
 }
 
 #githubLink{
-    color: purple;
+    color: rgb(221, 0, 221);
     font-size: 18px;
     text-align: center;
     margin: 20px;
     font-family: "MedievalSharp", cursive;
 }
 
+/* Footer */
+footer{
+    text-align: center;
+}
+
+.footer-text{
+    color: #4e3934;
+    font-size: 18px;
+    font-family: "MedievalSharp", cursive;
+    text-align: center;
+}
 
 /* Body Background */
 body{
     background-color: #000000;
     background-size: cover;
     background-attachment: fixed;
+    background-image: url("../ImagesDeD/fundo.png");
 }
 
 /* Especificos */
@@ -71,4 +93,15 @@ body{
   font-family: "MedievalSharp", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+/* Cores dos ícones */
+.fa-guitar{
+    color: #b76600;
+}
+.fa-leaf{
+    color: #228B22;
+}
+.fa-hat-wizard{
+    color: #16379b;
 }

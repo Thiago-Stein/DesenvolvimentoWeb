@@ -1,0 +1,88 @@
+/* Titulos e subtitulos */
+h1{
+    color: #5cb4dd;
+    text-align: center;
+    font-family: "Amarante", serif;
+    text-shadow: 2px 2px 4px #0066eb; /* Adiciona uma sombra para destacar o título */
+    margin-top: 20px; /* Remove a margem superior para que o título fique mais próximo do topo */
+}
+
+
+h2, h3 {
+    color: #005f8b;
+    font-family: "Amarante", serif;
+    text-align: center;
+}
+
+/* Paragrafos e textos*/
+p{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+/* Listas */
+ul , ol , li {
+    text-align: center;
+    list-style-position: inside; /* Coloca as bolinhas junto com o texto */
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+/* Body */
+body{
+    background-color: #1d1d1d;
+}
+
+footer{
+    text-align: center;
+}
+
+
+/* Guia Livros */
+.ajudaLivro{
+    color: #cccccc;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Sistemas */
+.ded{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 44px;
+}
+
+.cot{
+    color: green;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 44px;
+}
+
+.op{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 44px;
+}
+
+/*Imagem da biblioteca élfica */
+#livroBaixar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; /* Ajuste o valor conforme necessário para redimensionar a imagem*/
+    border: 2px solid #33ff00; /* Adiciona uma borda azul clara à imagem */
+    border-radius: 8px; /* Adiciona cantos arredondados à borda */
+}
+
+
+/* Fonte */
+.amarante-regular {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}
